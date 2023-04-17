@@ -1,0 +1,121 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #ffffff;
+	background-color: #202020;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555;
+}
+
+
+
+
+
+
+main {
+	margin: 0 auto;
+	
+}
+
+section {
+	margin-bottom: 2em;
+}
+
+section h2 {
+	margin-bottom: 1em;
+}
+
+section#clubs li {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	width: 31%;
+	float: left;
+	border-radius: 15px;
+    background-color: #555;
+	overflow: hidden;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border: 2px solid red;
+}
+
+section#clubs li:hover {
+	transform: scale(1.05);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+section#clubs img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+section#clubs h3 {
+    color: white;
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+section#clubs p {
+	margin: 1em;
+	font-size: 1em;
+	color: white;
+}
+
+section#about p {
+	margin: 1em 0;
+}
+
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+.jumbotron {
+    background: url(https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg?size=626&ext=jpg&ga=GA1.1.1590143670.1681520467&semt=sph);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height: 800px;
+  }
+  /*responsive*/
+@media(max-width: 767px){
+	.footer-col{
+	  width: 50%;
+	  margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+	.footer-col{
+	  width: 100%;
+  }
+  }
+  @media (max-width: 500px) {
+	  .main h1 {
+		font-size: 50px;
+		padding: 0 40px;
+	  }
+	
+	  .supporting .col {
+		width: 100%;
+	  }
+	}
+  

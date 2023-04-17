@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Google Authentication Login Page</title>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <style>
+    .google-signin-button {
+      display: inline-block;
+      background-color: #4285F4;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  <script>
+    function onSignIn(googleUser) {
+      // Handle the authentication response
+      var id_token = googleUser.getAuthResponse().id_token;
+      // Redirect the user to your application
+      window.location.href = "AIzaSyDt2NxhSA9jxtIsPrmTs1Sgg0sr--x8uUI" + id_token;
+    }
+  </script>
+</body>
+</html>

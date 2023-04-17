@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;}
+.slider {
+  width: 100%;
+  height: 510px;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid red;
+  /* transition: all 0.5s ease-in-out; */
+}
+
+.slider img:first-child {
+  z-index: 1;
+}
+
+.slider img:nth-child(2) {
+  z-index: 0;
+}
+
+.navigation-button {
+  text-align: center;
+  position: relative;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  width:100%;
+  padding-top: 20px;
+  text-align:center;
+}
+h2{
+  font-family:sans-serif;
+  color:#fff;
+}
+.carousel{
+  width:90%;
+  margin:0px auto;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+}
+.slick-prev, .slick-next{
+  background: #000;
+  border-radius: 15px;
+  border-color: transparent;
+}
+.card{
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 15px #ccc;
+  width: 31.5%;
+  float: left;
+  margin: 10px;
+}
+.card-body{
+  background: #fff;
+  width: 100%;
+  vertical-align: top;
+}
+.card-content{
+  text-align: left;
+  color: #333;
+  padding: 15px;
+}
+.card-text{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+section {
+	margin-bottom: 2em;
+}
+
+section h2 {
+	margin-bottom: 1em;
+}
+
+section.clubs li {
+  float: left;
+  width: 31%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+  height: 500px;
+	border-radius: 15px;
+  background-color: #555;
+	overflow: hidden;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border: 2px solid red;
+}
+
+section.clubs li:hover {
+	transform: scale(1.05);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+section.clubs img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+section.clubs h3 {
+    color: white;
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+section.clubs p {
+	margin: 1em;
+	font-size: 1em;
+	color: white;
+}
+
+section#about p {
+	margin: 1em 0;
+}
+.my-button {
+  background-color: red;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+}
+
+a {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 30px 0;
+  clear: left;
+  height: 250px;
+
+	
+}
+.footer-col{
+   width: 22%;
+   padding: 0 15px;
+   float: left;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li{list-style: none;
+text-align: left;
+float: left;
+clear: left;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}

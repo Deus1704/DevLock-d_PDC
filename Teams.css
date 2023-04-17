@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    color: #b7b7b7;
+}
+h2,h3{
+    color: white;
+}
+
+p {
+    color: white;
+}
+.section-padding {
+    padding: 40px 30px;
+    font-size: 15px;
+}
+
+.section-title {
+    margin-bottom: 81px;
+}
+h2 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 10px;
+    width: 376px;
+}
+
+h2:before {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 136px;
+    height: 6px;
+    background: #ECECEB;
+    border-radius: 15px;
+}
+
+
+h2:after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 45px;
+    height: 6px;
+    background: red;
+    border-radius: 15px;
+}
+.owl-carousel .owl-item .single-staff-item img{
+    max-width: 325px;
+    width: 160px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.staff-meta {
+    font-size: 12px;
+    color: #b7b7b7;
+    margin-top: 20px;
+}
+
+.staff-meta h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.staff-list .owl-nav button {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #f3f3f3 !important;
+    margin-left: 10px;
+    transition: .3s;
+}
+.staff-list .owl-nav button:hover{
+    background: red !important;
+    color: white !important;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -46px;
+}
+.staff-desc{
+    margin-top: 20px;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 30px 0;
+    height: 344px;
+	
+}
+.footer-col{
+    width: 25%;
+    float: left;
+}
+.footer-col li{
+    list-style: none;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .jumbotron {
+    background: url(https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg?size=626&ext=jpg&ga=GA1.1.1590143670.1681520467&semt=sph);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height: 800px;
+  }

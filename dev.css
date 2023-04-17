@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 30px 0;
+	
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .jumbotron {
+    background: url(https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg?size=626&ext=jpg&ga=GA1.1.1590143670.1681520467&semt=sph);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height: 800px;
+  }
+  
+  .nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .nav li {
+    display:inline;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform:uppercase;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  
+  .main {
+    position: relative;
+    top: 180px;
+    text-align: center;
+  }
+  
+  .main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+  
+  .btn-main {
+    background-color: #333333;
+    color: #ecd1d1;
+	border: 2px solid whitesmoke;
+	border-radius: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .main a:hover{
+	color: rgb(194, 192, 188);
+	
+  }
+  
+  .btn-default {
+    color:#333;
+    border:1px solid #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    display: inline-block;
+    margin-bottom: 20px; 
+    padding-right:50px;
+    padding-left:50px;
+  }
+  
+  .supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  
+  .supporting .col {
+    float: left;
+    width: 33%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  .supporting img {
+    height: 32px;
+  }
+  
+  .supporting h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  .supporting p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin-bottom: 40px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+@media (max-width: 500px) {
+    .main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+    }
+  }
+
+
+
+

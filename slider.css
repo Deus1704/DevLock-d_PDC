@@ -7,6 +7,9 @@ body{
   height: 510px;
   position: relative;
 }
+.dip{display: flex;
+flex-wrap: wrap;
+justify-content: center;}
 
 .slider img {
   width: 100%;
